@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s = "兄dei，别搞事啊";
-                textView.setText(s);
+                //String s = "兄dei，别搞事啊";
+                textView.setText(null);
             }
         });
     }
